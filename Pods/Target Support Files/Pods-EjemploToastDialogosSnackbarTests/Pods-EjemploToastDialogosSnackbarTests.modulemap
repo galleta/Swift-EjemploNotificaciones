@@ -1,0 +1,6 @@
+framework module Pods_EjemploToastDialogosSnackbarTests {
+  umbrella header "Pods-EjemploToastDialogosSnackbarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

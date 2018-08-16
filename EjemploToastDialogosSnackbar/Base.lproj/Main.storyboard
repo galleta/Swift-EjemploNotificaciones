@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FAk-Oj-Gul">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ejemplo Toast, diálogos y Snackbar-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EjemploToastDialogosSnackbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1FI-t9-51s">
+                                <rect key="frame" x="0.0" y="79" width="375" height="50.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDM-Zg-cTl">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="10.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ohj-TD-9Xz">
+                                        <rect key="frame" x="0.0" y="20.5" width="375" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2L-hk-Dnm">
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
+                                                <state key="normal" title="Normal"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonToastNormal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t19-SZ-un6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTl-CS-Kbo">
+                                                <rect key="frame" x="125" y="0.0" width="125" height="30"/>
+                                                <state key="normal" title="Con imagen"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonToastImagen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vt1-AC-NX8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWc-qS-G7D">
+                                                <rect key="frame" x="250" y="0.0" width="125" height="30"/>
+                                                <state key="normal" title="Con posición"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonToastPosicion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JOo-5s-8ix"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ohj-TD-9Xz" secondAttribute="trailing" id="0DO-YP-qZa"/>
+                                    <constraint firstAttribute="height" constant="50.5" id="9gg-Wv-iZe"/>
+                                    <constraint firstAttribute="trailing" secondItem="uDM-Zg-cTl" secondAttribute="trailing" id="fyq-Wa-JIH"/>
+                                    <constraint firstItem="ohj-TD-9Xz" firstAttribute="leading" secondItem="1FI-t9-51s" secondAttribute="leading" id="jmH-oi-2s6"/>
+                                    <constraint firstItem="uDM-Zg-cTl" firstAttribute="leading" secondItem="1FI-t9-51s" secondAttribute="leading" id="nbH-oj-8gc"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="J0X-h8-2O9">
+                                <rect key="frame" x="0.0" y="144.5" width="375" height="60.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diálogos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imx-NB-nFx">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qNc-XD-VZH">
+                                        <rect key="frame" x="0.0" y="30.5" width="375" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mcb-lY-QfM">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="30"/>
+                                                <state key="normal" title="1 botón"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonDialogo1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BLs-fB-Nnh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMb-lf-khu">
+                                                <rect key="frame" x="94" y="0.0" width="93.5" height="30"/>
+                                                <state key="normal" title="2 botones"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonDialogo2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MlT-fA-V9M"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxm-z1-DRY">
+                                                <rect key="frame" x="187.5" y="0.0" width="94" height="30"/>
+                                                <state key="normal" title="3 botones"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonDialogo3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Nl-Ud-UBS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6S-xU-kfw">
+                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="30"/>
+                                                <state key="normal" title="Con texto"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonDialogoTexto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oIs-LC-HhJ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="imx-NB-nFx" firstAttribute="centerX" secondItem="J0X-h8-2O9" secondAttribute="centerX" id="3oe-73-n62"/>
+                                    <constraint firstItem="imx-NB-nFx" firstAttribute="centerX" secondItem="J0X-h8-2O9" secondAttribute="centerX" id="PI7-wn-I4b"/>
+                                    <constraint firstItem="qNc-XD-VZH" firstAttribute="leading" secondItem="J0X-h8-2O9" secondAttribute="leading" id="oN9-Wg-5Qk"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kiB-IN-Q83">
+                                <rect key="frame" x="0.0" y="220" width="375" height="60.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snackbar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Nb-48-Igm">
+                                        <rect key="frame" x="151.5" y="0.0" width="72.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AXg-l5-yxn">
+                                        <rect key="frame" x="0.0" y="30.5" width="375" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZG-w1-Rj5">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="30"/>
+                                                <state key="normal" title="Sin acción"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonSnackbar1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s6d-JQ-AtJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHv-hK-V7p">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="30"/>
+                                                <state key="normal" title="Con acción"/>
+                                                <connections>
+                                                    <action selector="funcionalidadBotonSnackbar2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVg-oX-HaR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="AXg-l5-yxn" firstAttribute="leading" secondItem="kiB-IN-Q83" secondAttribute="leading" id="CII-yC-Fvm"/>
+                                    <constraint firstAttribute="trailing" secondItem="AXg-l5-yxn" secondAttribute="trailing" id="PyN-Ug-A0w"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="J0X-h8-2O9" secondAttribute="trailing" id="34Y-SI-mLc"/>
+                            <constraint firstItem="kiB-IN-Q83" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5UN-l6-e3Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1FI-t9-51s" secondAttribute="trailing" id="ARv-jb-Naw"/>
+                            <constraint firstItem="J0X-h8-2O9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MnQ-Gp-5C9"/>
+                            <constraint firstItem="1FI-t9-51s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PpX-r2-vg1"/>
+                            <constraint firstItem="J0X-h8-2O9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Sv2-y2-DKH"/>
+                            <constraint firstItem="1FI-t9-51s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="VgD-G9-kud"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kiB-IN-Q83" secondAttribute="trailing" id="dBF-Ew-8Tm"/>
+                            <constraint firstItem="J0X-h8-2O9" firstAttribute="top" secondItem="1FI-t9-51s" secondAttribute="bottom" constant="15" id="mmC-Bv-YHE"/>
+                            <constraint firstItem="kiB-IN-Q83" firstAttribute="top" secondItem="J0X-h8-2O9" secondAttribute="bottom" constant="15" id="pgP-6y-Q2s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ejemplo Toast, diálogos y Snackbar" id="2Bp-Q8-dQe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="33.733133433283363"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qzj-Av-Ehu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FAk-Oj-Gul" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RPv-6b-ekW">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lQP-0B-xIL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Brf-Ih-4wB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="-663.41829085457277"/>
+        </scene>
+    </scenes>
+</document>

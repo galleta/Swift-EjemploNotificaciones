@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0208A61DCCE36690FE34F929 /* Pods_EjemploToastDialogosSnackbarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4484CA168134426B00F1EBB1 /* Pods_EjemploToastDialogosSnackbarTests.framework */; };
+		561282C82122CEEB00C705EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561282C72122CEEB00C705EA /* AppDelegate.swift */; };
+		561282CA2122CEEB00C705EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561282C92122CEEB00C705EA /* ViewController.swift */; };
+		561282CD2122CEEB00C705EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561282CB2122CEEB00C705EA /* Main.storyboard */; };
+		561282CF2122CEED00C705EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561282CE2122CEED00C705EA /* Assets.xcassets */; };
+		561282D22122CEED00C705EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561282D02122CEED00C705EA /* LaunchScreen.storyboard */; };
+		561282DD2122CEED00C705EA /* EjemploToastDialogosSnackbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561282DC2122CEED00C705EA /* EjemploToastDialogosSnackbarTests.swift */; };
+		561282E82122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561282E72122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.swift */; };
+		7192936C7352014185703477 /* Pods_EjemploToastDialogosSnackbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CBEB40DA1F7DF7E28C917B /* Pods_EjemploToastDialogosSnackbar.framework */; };
+		96B54073B43468227B6C0EA0 /* Pods_EjemploToastDialogosSnackbarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C1828C0B45D3653F4F98B5 /* Pods_EjemploToastDialogosSnackbarUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561282D92122CEED00C705EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561282BC2122CEEB00C705EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561282C32122CEEB00C705EA;
+			remoteInfo = EjemploToastDialogosSnackbar;
+		};
+		561282E42122CEED00C705EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561282BC2122CEEB00C705EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561282C32122CEEB00C705EA;
+			remoteInfo = EjemploToastDialogosSnackbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DAA159F7E1AB56DEB50F2C6 /* Pods-EjemploToastDialogosSnackbarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjemploToastDialogosSnackbarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EjemploToastDialogosSnackbarTests/Pods-EjemploToastDialogosSnackbarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4484CA168134426B00F1EBB1 /* Pods_EjemploToastDialogosSnackbarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EjemploToastDialogosSnackbarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561282C42122CEEB00C705EA /* EjemploToastDialogosSnackbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploToastDialogosSnackbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561282C72122CEEB00C705EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561282C92122CEEB00C705EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		561282CC2122CEEB00C705EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561282CE2122CEED00C705EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561282D12122CEED00C705EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561282D32122CEED00C705EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561282D82122CEED00C705EA /* EjemploToastDialogosSnackbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploToastDialogosSnackbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561282DC2122CEED00C705EA /* EjemploToastDialogosSnackbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploToastDialogosSnackbarTests.swift; sourceTree = "<group>"; };
+		561282DE2122CEED00C705EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561282E32122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploToastDialogosSnackbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561282E72122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploToastDialogosSnackbarUITests.swift; sourceTree = "<group>"; };
+		561282E92122CEED00C705EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DF913B8C529F9BF56AF9B9 /* Pods-EjemploToastDialogosSnackbarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjemploToastDialogosSnackbarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EjemploToastDialogosSnackbarUITests/Pods-EjemploToastDialogosSnackbarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		979CE549BF7D4C5921600F37 /* Pods-EjemploToastDialogosSnackbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjemploToastDialogosSnackbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EjemploToastDialogosSnackbar/Pods-EjemploToastDialogosSnackbar.debug.xcconfig"; sourceTree = "<group>"; };
+		A611E02D9780D73C0B687B41 /* Pods-EjemploToastDialogosSnackbarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjemploToastDialogosSnackbarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EjemploToastDialogosSnackbarTests/Pods-EjemploToastDialogosSnackbarTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0A61F18E1C24CB573013669 /* Pods-EjemploToastDialogosSnackbarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjemploToastDialogosSnackbarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EjemploToastDialogosSnackbarUITests/Pods-EjemploToastDialogosSnackbarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6C1828C0B45D3653F4F98B5 /* Pods_EjemploToastDialogosSnackbarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EjemploToastDialogosSnackbarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CBEB40DA1F7DF7E28C917B /* Pods_EjemploToastDialogosSnackbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EjemploToastDialogosSnackbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A7BE5030DA8298808534F /* Pods-EjemploToastDialogosSnackbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjemploToastDialogosSnackbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-EjemploToastDialogosSnackbar/Pods-EjemploToastDialogosSnackbar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561282C12122CEEB00C705EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7192936C7352014185703477 /* Pods_EjemploToastDialogosSnackbar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561282D52122CEED00C705EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0208A61DCCE36690FE34F929 /* Pods_EjemploToastDialogosSnackbarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561282E02122CEED00C705EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B54073B43468227B6C0EA0 /* Pods_EjemploToastDialogosSnackbarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561282BB2122CEEB00C705EA = {
+			isa = PBXGroup;
+			children = (
+				561282C62122CEEB00C705EA /* EjemploToastDialogosSnackbar */,
+				561282DB2122CEED00C705EA /* EjemploToastDialogosSnackbarTests */,
+				561282E62122CEED00C705EA /* EjemploToastDialogosSnackbarUITests */,
+				561282C52122CEEB00C705EA /* Products */,
+				C2D99683B5C11711A76C4C7E /* Pods */,
+				E4B04BD69B8654902E335627 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		561282C52122CEEB00C705EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561282C42122CEEB00C705EA /* EjemploToastDialogosSnackbar.app */,
+				561282D82122CEED00C705EA /* EjemploToastDialogosSnackbarTests.xctest */,
+				561282E32122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561282C62122CEEB00C705EA /* EjemploToastDialogosSnackbar */ = {
+			isa = PBXGroup;
+			children = (
+				561282C72122CEEB00C705EA /* AppDelegate.swift */,
+				561282C92122CEEB00C705EA /* ViewController.swift */,
+				561282CB2122CEEB00C705EA /* Main.storyboard */,
+				561282CE2122CEED00C705EA /* Assets.xcassets */,
+				561282D02122CEED00C705EA /* LaunchScreen.storyboard */,
+				561282D32122CEED00C705EA /* Info.plist */,
+			);
+			path = EjemploToastDialogosSnackbar;
+			sourceTree = "<group>";
+		};
+		561282DB2122CEED00C705EA /* EjemploToastDialogosSnackbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				561282DC2122CEED00C705EA /* EjemploToastDialogosSnackbarTests.swift */,
+				561282DE2122CEED00C705EA /* Info.plist */,
+			);
+			path = EjemploToastDialogosSnackbarTests;
+			sourceTree = "<group>";
+		};
+		561282E62122CEED00C705EA /* EjemploToastDialogosSnackbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561282E72122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.swift */,
+				561282E92122CEED00C705EA /* Info.plist */,
+			);
+			path = EjemploToastDialogosSnackbarUITests;
+			sourceTree = "<group>";
+		};
+		C2D99683B5C11711A76C4C7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				979CE549BF7D4C5921600F37 /* Pods-EjemploToastDialogosSnackbar.debug.xcconfig */,
+				F77A7BE5030DA8298808534F /* Pods-EjemploToastDialogosSnackbar.release.xcconfig */,
+				0DAA159F7E1AB56DEB50F2C6 /* Pods-EjemploToastDialogosSnackbarTests.debug.xcconfig */,
+				A611E02D9780D73C0B687B41 /* Pods-EjemploToastDialogosSnackbarTests.release.xcconfig */,
+				84DF913B8C529F9BF56AF9B9 /* Pods-EjemploToastDialogosSnackbarUITests.debug.xcconfig */,
+				C0A61F18E1C24CB573013669 /* Pods-EjemploToastDialogosSnackbarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4B04BD69B8654902E335627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBEB40DA1F7DF7E28C917B /* Pods_EjemploToastDialogosSnackbar.framework */,
+				4484CA168134426B00F1EBB1 /* Pods_EjemploToastDialogosSnackbarTests.framework */,
+				C6C1828C0B45D3653F4F98B5 /* Pods_EjemploToastDialogosSnackbarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561282C32122CEEB00C705EA /* EjemploToastDialogosSnackbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561282EC2122CEEE00C705EA /* Build configuration list for PBXNativeTarget "EjemploToastDialogosSnackbar" */;
+			buildPhases = (
+				BA88D0F253D72E5E1AB35DAD /* [CP] Check Pods Manifest.lock */,
+				561282C02122CEEB00C705EA /* Sources */,
+				561282C12122CEEB00C705EA /* Frameworks */,
+				561282C22122CEEB00C705EA /* Resources */,
+				84DCBD853679EBCB4F166774 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjemploToastDialogosSnackbar;
+			productName = EjemploToastDialogosSnackbar;
+			productReference = 561282C42122CEEB00C705EA /* EjemploToastDialogosSnackbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561282D72122CEED00C705EA /* EjemploToastDialogosSnackbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561282EF2122CEEE00C705EA /* Build configuration list for PBXNativeTarget "EjemploToastDialogosSnackbarTests" */;
+			buildPhases = (
+				FE61AE37895DB5592F3F8DCF /* [CP] Check Pods Manifest.lock */,
+				561282D42122CEED00C705EA /* Sources */,
+				561282D52122CEED00C705EA /* Frameworks */,
+				561282D62122CEED00C705EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561282DA2122CEED00C705EA /* PBXTargetDependency */,
+			);
+			name = EjemploToastDialogosSnackbarTests;
+			productName = EjemploToastDialogosSnackbarTests;
+			productReference = 561282D82122CEED00C705EA /* EjemploToastDialogosSnackbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561282E22122CEED00C705EA /* EjemploToastDialogosSnackbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561282F22122CEEE00C705EA /* Build configuration list for PBXNativeTarget "EjemploToastDialogosSnackbarUITests" */;
+			buildPhases = (
+				441C50BC32221A92A494A9A9 /* [CP] Check Pods Manifest.lock */,
+				561282DF2122CEED00C705EA /* Sources */,
+				561282E02122CEED00C705EA /* Frameworks */,
+				561282E12122CEED00C705EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561282E52122CEED00C705EA /* PBXTargetDependency */,
+			);
+			name = EjemploToastDialogosSnackbarUITests;
+			productName = EjemploToastDialogosSnackbarUITests;
+			productReference = 561282E32122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561282BC2122CEEB00C705EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Instituto Tecnológico Poniente";
+				TargetAttributes = {
+					561282C32122CEEB00C705EA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					561282D72122CEED00C705EA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 561282C32122CEEB00C705EA;
+					};
+					561282E22122CEED00C705EA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 561282C32122CEEB00C705EA;
+					};
+				};
+			};
+			buildConfigurationList = 561282BF2122CEEB00C705EA /* Build configuration list for PBXProject "EjemploToastDialogosSnackbar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561282BB2122CEEB00C705EA;
+			productRefGroup = 561282C52122CEEB00C705EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561282C32122CEEB00C705EA /* EjemploToastDialogosSnackbar */,
+				561282D72122CEED00C705EA /* EjemploToastDialogosSnackbarTests */,
+				561282E22122CEED00C705EA /* EjemploToastDialogosSnackbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561282C22122CEEB00C705EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561282D22122CEED00C705EA /* LaunchScreen.storyboard in Resources */,
+				561282CF2122CEED00C705EA /* Assets.xcassets in Resources */,
+				561282CD2122CEEB00C705EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561282D62122CEED00C705EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561282E12122CEED00C705EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		441C50BC32221A92A494A9A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EjemploToastDialogosSnackbarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84DCBD853679EBCB4F166774 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EjemploToastDialogosSnackbar/Pods-EjemploToastDialogosSnackbar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EjemploToastDialogosSnackbar/Pods-EjemploToastDialogosSnackbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA88D0F253D72E5E1AB35DAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EjemploToastDialogosSnackbar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE61AE37895DB5592F3F8DCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EjemploToastDialogosSnackbarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561282C02122CEEB00C705EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561282CA2122CEEB00C705EA /* ViewController.swift in Sources */,
+				561282C82122CEEB00C705EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561282D42122CEED00C705EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561282DD2122CEED00C705EA /* EjemploToastDialogosSnackbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561282DF2122CEED00C705EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561282E82122CEED00C705EA /* EjemploToastDialogosSnackbarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561282DA2122CEED00C705EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561282C32122CEEB00C705EA /* EjemploToastDialogosSnackbar */;
+			targetProxy = 561282D92122CEED00C705EA /* PBXContainerItemProxy */;
+		};
+		561282E52122CEED00C705EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561282C32122CEEB00C705EA /* EjemploToastDialogosSnackbar */;
+			targetProxy = 561282E42122CEED00C705EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561282CB2122CEEB00C705EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561282CC2122CEEB00C705EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561282D02122CEED00C705EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561282D12122CEED00C705EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561282EA2122CEEE00C705EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561282EB2122CEEE00C705EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561282ED2122CEEE00C705EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979CE549BF7D4C5921600F37 /* Pods-EjemploToastDialogosSnackbar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjemploToastDialogosSnackbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itp.EjemploToastDialogosSnackbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561282EE2122CEEE00C705EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77A7BE5030DA8298808534F /* Pods-EjemploToastDialogosSnackbar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjemploToastDialogosSnackbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itp.EjemploToastDialogosSnackbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		561282F02122CEEE00C705EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAA159F7E1AB56DEB50F2C6 /* Pods-EjemploToastDialogosSnackbarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjemploToastDialogosSnackbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itp.EjemploToastDialogosSnackbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EjemploToastDialogosSnackbar.app/EjemploToastDialogosSnackbar";
+			};
+			name = Debug;
+		};
+		561282F12122CEEE00C705EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A611E02D9780D73C0B687B41 /* Pods-EjemploToastDialogosSnackbarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjemploToastDialogosSnackbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itp.EjemploToastDialogosSnackbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EjemploToastDialogosSnackbar.app/EjemploToastDialogosSnackbar";
+			};
+			name = Release;
+		};
+		561282F32122CEEE00C705EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DF913B8C529F9BF56AF9B9 /* Pods-EjemploToastDialogosSnackbarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjemploToastDialogosSnackbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itp.EjemploToastDialogosSnackbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EjemploToastDialogosSnackbar;
+			};
+			name = Debug;
+		};
+		561282F42122CEEE00C705EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A61F18E1C24CB573013669 /* Pods-EjemploToastDialogosSnackbarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjemploToastDialogosSnackbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = itp.EjemploToastDialogosSnackbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EjemploToastDialogosSnackbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561282BF2122CEEB00C705EA /* Build configuration list for PBXProject "EjemploToastDialogosSnackbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561282EA2122CEEE00C705EA /* Debug */,
+				561282EB2122CEEE00C705EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561282EC2122CEEE00C705EA /* Build configuration list for PBXNativeTarget "EjemploToastDialogosSnackbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561282ED2122CEEE00C705EA /* Debug */,
+				561282EE2122CEEE00C705EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561282EF2122CEEE00C705EA /* Build configuration list for PBXNativeTarget "EjemploToastDialogosSnackbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561282F02122CEEE00C705EA /* Debug */,
+				561282F12122CEEE00C705EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561282F22122CEEE00C705EA /* Build configuration list for PBXNativeTarget "EjemploToastDialogosSnackbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561282F32122CEEE00C705EA /* Debug */,
+				561282F42122CEEE00C705EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561282BC2122CEEB00C705EA /* Project object */;
+}

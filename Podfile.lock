@@ -1,0 +1,71 @@
+PODS:
+  - MaterialComponents/AnimationTiming (59.2.2)
+  - MaterialComponents/Buttons (59.2.2):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (59.2.2):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (59.2.2):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (59.2.2)
+  - MaterialComponents/private/KeyboardWatcher (59.2.2):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (59.2.2)
+  - MaterialComponents/private/Overlay (59.2.2)
+  - MaterialComponents/private/Shapes (59.2.2):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/schemes/Color (59.2.2)
+  - MaterialComponents/schemes/Typography (59.2.2)
+  - MaterialComponents/ShadowElevations (59.2.2)
+  - MaterialComponents/ShadowLayer (59.2.2):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar (59.2.2):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - "MaterialComponents/Snackbar+ColorThemer (59.2.2)":
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/Snackbar
+  - "MaterialComponents/Snackbar+TypographyThemer (59.2.2)":
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/Snackbar
+  - MaterialComponents/Typography (59.2.2):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - MDFTextAccessibility (1.2.0)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - MaterialComponents/Snackbar
+  - "MaterialComponents/Snackbar+ColorThemer"
+  - "MaterialComponents/Snackbar+TypographyThemer"
+  - Toast-Swift (~> 3.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  MaterialComponents: 70a1e7d84d140e7231452e3cc0fb3adae08dbfe5
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: 7bc44b59d3ac8834d59bbcbf7a6d3bf8cef15ac2
+
+COCOAPODS: 1.5.3
