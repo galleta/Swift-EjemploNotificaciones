@@ -1,8 +1,10 @@
-<h1>Ejemplo de notificaciones en iOS con SWIFT</h1>
+![Swift](https://img.shields.io/badge/Lenguaje-Swift-orange?logo=swift)
+![Xcode](https://img.shields.io/badge/IDE-Xcode-147EFB?logo=xcode)
 
-<p>Ejemplo de una aplicación programada en XCODE con SWIFT que muestra las siguientes notificaciones para el usuario: </p>
-<ul>
-  <li>Notificaciones Toast</li>
-  <li>Diálogos</li>
-  <li>Snackbar</li>
-</ul>
+# Ejemplo de notificaciones en iOS con SWIFT
+
+Ejemplo de una aplicación programada en XCODE con SWIFT que muestra las siguientes notificaciones para el usuario:
+
+- Notificaciones Toast
+- Diálogos
+- Snackbar
